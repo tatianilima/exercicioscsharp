@@ -6,8 +6,12 @@ namespace Exercicio01
     {
         static void Main(string[] args)
         {
-			//Primeiro declarar as variaveis
-			int valor1, valor2, soma;
+            /*Faça um programa para ler dois valores inteiros,
+             *e depois mostrar na tela a soma desses números com uma mensagem explicativa,
+             *conforme exemplos.
+             */
+            //Primeiro declarar as variaveis
+            int valor1, valor2, soma;
 
 			//Depois exibir a janela de entrada de dados
 			Console.WriteLine("Informe o valor 1:");
@@ -17,7 +21,7 @@ namespace Exercicio01
 
 			soma = valor1 + valor2;
             Console.WriteLine("Resultado:");
-            Console.WriteLine(soma);
+            Console.WriteLine(soma); 
 		} 
     }
 }
