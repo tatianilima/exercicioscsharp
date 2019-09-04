@@ -16,8 +16,8 @@ namespace Exercicio01
 			valor2 = int.Parse(Console.ReadLine());
 
 			soma = valor1 + valor2;
-            Console.WriteLine("Resultado: ");
+            Console.WriteLine("Resultado:");
             Console.WriteLine(soma);
-		}
+		} 
     }
 }
